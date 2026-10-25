@@ -1,0 +1,42 @@
+# Environments and secrets
+venv/
+.venv/
+env/
+ENV/
+.env
+*.pem
+*.key
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Databases & local instances
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Temporary storage & large binaries
+uploads/
+temp/
+*.tmp
+*.tar
+resumeai-image.tar
+
+# Large raw datasets
+data/*.pdf
+data/*.docx
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.agents/
